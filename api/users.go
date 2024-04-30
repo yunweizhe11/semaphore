@@ -36,7 +36,7 @@ func getUsers(w http.ResponseWriter, r *http.Request) {
 				Username: user.Username,
 			})
 		}
-
+		helpers.WriteJSON()
 		helpers.WriteJSON(w, http.StatusOK, result)
 	}
 }

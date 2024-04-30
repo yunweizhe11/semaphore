@@ -71,6 +71,16 @@ func TestTaskRunnerRun(t *testing.T) {
 		},
 	}
 	taskRunner.run()
+	// xx
+
+}
+
+
+func deploy(){
+	err := xxx
+	if err != nil {
+		xxx
+	}
 }
 
 func TestGetRepoPath(t *testing.T) {
